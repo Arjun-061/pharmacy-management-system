@@ -1,16 +1,33 @@
-# React + Vite
+# Pharmacy Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A web-based application designed to manage pharmacy stock, handle billing, track medicine expirations, and send customer alerts using a Flask backend and a React (Vite) frontend.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
+* **Inventory Tracking:** Manage medicine batches and stock counts.
+* **Billing System:** Process customer invoices.
+* **Alert Notifications:** Integrated SMS and voice reminders for medicine expiration.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Project Architecture
+* **Backend:** Python (Flask)
+* **Frontend:** React.js (Vite)
+* **Database:** MySQL
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## ⚙️ Setup Instructions
+
+### 1. Prerequisites
+Ensure you have the following installed on your machine:
+* Python 3.x
+* Node.js (v20 or higher)
+* MySQL Server
+
+### 2. Backend Setup (Flask)
+1. Navigate to the project root directory.
+2. Install the required Python dependencies:
+   ```bash
+   pip install -r requirements.txt
